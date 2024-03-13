@@ -1,0 +1,47 @@
+.title-pokemonlist {
+    font-size: 5rem;
+    font-family: 'Pokemon', sans-serif;
+    padding: 0 0 2rem 0;
+    color: rgb(29, 29, 110);
+    background-color: brown;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Pokemon', sans-serif;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 2rem
+}
+
+.pokemon-generation {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Pokemon', sans-serif;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 2rem
+}
+
+.pagination-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.pokemon-detail {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 5rem 0;
+}
+
+.pokemon-detail p {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.button-pokemon {
+    background-color: rgb(29, 29, 110);
+}

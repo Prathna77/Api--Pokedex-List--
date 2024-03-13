@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Pokemon";
+    src:
+      url("../fonts/Pokemon\ Solid.ttf") format("truetype");
+  }
+
+body {
+    background-image: url("../images/backgroundPokemon2.jpg");
+    background-size: cover;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
